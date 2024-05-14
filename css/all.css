@@ -133,10 +133,16 @@ table {
   border-spacing: 0;
 }
 
+body {
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
 .wrap {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
+  background-color: #fff;
 }
 .wrap nav {
   background-color: #eaf0ed;
@@ -162,6 +168,10 @@ table {
   text-decoration: none;
   display: block;
   padding: 6px 114px;
+}
+.wrap nav .menu ul li :hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
 }
 .wrap section .content {
   padding-top: 64px;
